@@ -27,3 +27,32 @@ header {
     font-size: 16px;
     color: rgb(111, 111, 111);
 }
+.section1 {
+    background-color: lightgray;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 48px;
+    font-weight: bold;
+    color: rgb(57, 57, 57);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+}
+.image {
+    margin-right: 24px;
+}
+.section1-latin {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(85, 85, 85);
+}
+.start {
+    background-color: rgb(57, 57, 57);
+    color: white;
+    font-weight: normal;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 24px;
+}

@@ -10,6 +10,9 @@ header {
     color: rgb(57, 57, 57)!important;
     font-size: 30px;
 }
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .light {
     color: grey;
     font-weight: 300;
@@ -42,6 +45,7 @@ header {
 }
 .image {
     margin-right: 24px;
+    display: inline!important;
 }
 .section1-latin {
     font-size: 24px;
@@ -55,4 +59,25 @@ header {
     padding-top: 8px;
     padding-bottom: 8px;
     font-size: 24px;
+}
+.section2 {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.image2 {
+    width: 60%;
+}
+.section2-header {
+    font-size: 38px;
+    font-weight: bold;
+    color: rgb(57, 57, 57);
+}
+.section2-latin {
+    font-size: 20px;
+    color: rgb(149, 149, 149);
+    margin-right: 40%;
+    font-weight: normal!important;
+    padding-bottom: 32px;
 }

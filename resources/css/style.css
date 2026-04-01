@@ -44,13 +44,18 @@ body {
     align-items: center;
 }
 .image {
-    margin-right: 24px;
+    margin-right: 48px;
     display: inline!important;
 }
 .section1-latin {
     font-size: 24px;
     font-weight: 500;
     color: rgb(85, 85, 85);
+}
+.section1-col {
+    flex-direction: column;
+    text-align: left;
+    padding-right: 200px;
 }
 .start {
     background-color: rgb(57, 57, 57);
@@ -59,6 +64,7 @@ body {
     padding-top: 8px;
     padding-bottom: 8px;
     font-size: 24px;
+    text-align: center;
 }
 .section2 {
     padding-left: 24px;
@@ -67,7 +73,7 @@ body {
     padding-bottom: 32px;
 }
 .image2 {
-    width: 60%;
+    width: 600;
 }
 .section2-header {
     font-size: 38px;
@@ -81,6 +87,32 @@ body {
     font-weight: normal!important;
     padding-bottom: 32px;
 }
-.section2-tableimg1, .section2-tableimg2, .section2-tableimg3 {
-    border:blue;
+.section2-table {
+    display: flex;
+    border: 2px solid rgb(194, 194, 194);    
+    align-items: center;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.section2-table img {
+    padding-right: 20px;
+    width: 300px;
+}
+.tableHead {
+    font-size: 25px;
+    color: rgb(85, 85, 85);
+    font-weight: bold;
+}
+.tableInfo {
+    font-size: 20px;
+    color: rgb(149, 149, 149);
+    font-weight: 300;
+}
+.vertical-align-table {
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+a {
+    color: rgb(82, 166, 255);
 }

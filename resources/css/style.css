@@ -1,3 +1,5 @@
+/*Header and sign in buttons*/
+
 header {
     display: flex;
     align-items: center;
@@ -30,6 +32,9 @@ body {
     font-size: 16px;
     color: rgb(111, 111, 111);
 }
+
+/*Section 1*/
+
 .section1 {
     background-color: lightgray;
     padding-left: 24px;
@@ -66,6 +71,9 @@ body {
     font-size: 24px;
     text-align: center;
 }
+
+/*Section 2*/
+
 .section2 {
     padding-left: 24px;
     padding-right: 24px;
@@ -87,7 +95,7 @@ body {
     font-weight: normal!important;
     padding-bottom: 32px;
 }
-.section2-table {
+.section2-table, .section2-table-grey {
     display: flex;
     border: 2px solid rgb(194, 194, 194);    
     align-items: center;
@@ -115,4 +123,26 @@ body {
 }
 a {
     color: rgb(82, 166, 255);
+}
+.section2-table-grey {
+    background-color: lightgrey;;
+}
+
+/*Section 3*/
+
+.section3-header {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 40px;
+    color: rgb(57, 57, 57);
+    font-weight: bolder;
+    background-color: rgb(232, 232, 232);
+}
+.section3-table {
+    background-color: rgb(232, 232, 232);
+    height: auto;
+    width: auto;
+    padding-left: 72px;
+    padding-right: 72px;
 }

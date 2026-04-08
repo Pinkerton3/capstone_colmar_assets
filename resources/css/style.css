@@ -143,6 +143,56 @@ a {
     background-color: rgb(232, 232, 232);
     height: auto;
     width: auto;
-    padding-left: 72px;
+    padding-left: 40px;
     padding-right: 72px;
+    padding-bottom: 32px;
+}
+.table3img {
+    padding-left: 32px;
+    padding-bottom: 32px;
+}
+
+/*Section 4*/
+.thesis {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 40px;
+    color: rgb(57, 57, 57);
+    font-weight: bolder;
+}
+.thesis-video {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+}
+.thesis-subheader {
+    font-size: 25px;
+    color: rgb(85, 85, 85);
+    font-weight: bold;
+    padding-left: 24px;
+    padding-bottom: 8px;
+}
+.section4-latin {
+    font-size: 20px;
+    color: rgb(149, 149, 149);
+    margin-right: 40%;
+    font-weight: normal!important;
+    padding-bottom: 32px;
+    padding-left: 24px;
+}
+
+/*Footer*/
+.footer {
+    padding-left: 24px;
+    padding-top: 16px;
+    border-top: 2px solid lightgray;
+    color: rgb(184, 184, 184);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.footer-other-side {
+    text-align: right;
 }
